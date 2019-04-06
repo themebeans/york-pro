@@ -1,0 +1,60 @@
+.shape {
+	opacity: 0;
+	position: absolute;
+	transition: opacity 0.8s;
+}
+
+.shape.red-square {
+	left: 25%;
+	top: 5%;
+}
+
+.shape.yellow-line {
+	right: 50%;
+	top: 15%;
+}
+
+.shape.blue-square-big {
+	left: 25%;
+	top: 30%;
+}
+
+.shape.blue-circle {
+	left: 20%;
+	top: 70%;
+}
+
+.shape.green-rectangle-big {
+	right: 10%;
+	top: 65%;
+}
+
+.shape.yellow-circle {
+	left: 5%;
+	top: 55%;
+}
+
+.shape.green-line {
+	right: 15%;
+	top: 10%;
+}
+
+.shape.red-line {
+	left: 10%;
+	top: 45%;
+}
+
+.shape.blue-square-small {
+	right: 25%;
+	top: 20%;
+}
+
+.shape.green-rectangle-small {
+	left: 10%;
+	top: 10%;
+}
+
+.shape.yellow-triangle {
+	right: 10%;
+	top: 35%;
+}

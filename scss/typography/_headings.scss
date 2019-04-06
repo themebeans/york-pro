@@ -1,0 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	color: $color__text-heading;
+	font-family: $font__heading;
+	font-weight: $font__weight-heading;
+	font-weight: 400;
+	line-height: $font__line-height-heading;
+	margin: 0;
+
+	.entry-content & {
+		margin-bottom: 0 !important;
+		position: relative;
+
+		&:target::before {
+			border-left: 5px solid $black;
+			content: "";
+			height: 50%;
+			height: calc(100% - 5px);
+			left: 0;
+			position: absolute;
+			top: 5px;
+		}
+
+		+ p,
+		+ ul,
+		+ ol {
+			margin-top: $content__spacer / 2;
+		}
+
+		+ .wp-block-image,
+		+ .wp-block-gallery {
+			margin-top: ($content__spacer / 2) + 10 !important;
+		}
+
+		+ div[class*="blockgallery"] {
+			margin-top: ($content__spacer / 2) + 10;
+		}
+	}
+}
+
+h1,
+.h1 {
+	font-size: $font__size-lg;
+
+	@media (min-width: 600px) {
+		font-size: $font__size-xl;
+	}
+}
+
+h2,
+.h2 {
+	font-size: $font__size-lg;
+}
+
+h3,
+.h3 {
+	font-size: $font__size-mdlrg;
+}
+
+h4,
+.h4 {
+	font-size: $font__size-md;
+}
+
+h5,
+.h5 {
+	font-size: $font__size-sm;
+}
+
+h6,
+.h6 {
+	font-size: $font__size-xs;
+}

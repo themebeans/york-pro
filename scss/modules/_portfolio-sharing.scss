@@ -1,0 +1,157 @@
+.social-sharing {
+	animation: popIn 0.8s ease-in-out 1s;
+	animation-fill-mode: both;
+	bottom: 20px;
+	left: 20px;
+	line-height: 1;
+	font-size: 1;
+	opacity: 0;
+	position: fixed;
+	z-index: 4;
+	letter-spacing: normal;
+
+	@media (min-width: 600px) {
+		bottom: 3%;
+		left: 4%;
+	}
+
+	ul {
+		display: inline-block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		height: 32px;
+		left: 50%;
+		margin: -16px 0 0 -16px;
+		position: absolute;
+		top: 50%;
+		transform: translate(0) scale(0.33);
+		transition: transform 0.25s cubic-bezier(0.65, -0.375, 0.955, 0.305);
+		width: 32px;
+		will-change: transform, scale;
+
+		&:hover {
+			opacity: 0.65;
+		}
+
+		&:nth-child(1) {
+			transition-delay: 0.3s;
+		}
+
+		&:nth-child(2) {
+			transition-delay: 0.2s;
+		}
+
+		&:nth-child(3) {
+			transition-delay: 0.1s;
+		}
+
+		&:nth-child(4) {
+			transition-delay: 0s;
+		}
+
+		a {
+			border-radius: 50%;
+			cursor: pointer;
+			display: inline-block;
+			height: 32px;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			transform: translatez(0);
+			width: 32px;
+
+			& > div {
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			svg {
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+		}
+	}
+}
+
+.share-toggle {
+	display: none;
+
+	& + label {
+		background-color: $black;
+		border-radius: 50%;
+		cursor: pointer;
+		display: inline-block;
+		height: 42px;
+		margin: 0;
+		position: relative;
+		text-align: center;
+		width: 42px;
+		z-index: 10;
+
+		svg {
+			fill: $white;
+			height: 20px;
+			left: 10px;
+			position: absolute;
+			top: 11px;
+			transition: opacity 300ms cubic-bezier(0.8, 0, 0.07, 1), transform 300ms cubic-bezier(0.8, 0, 0.07, 1);
+			width: 20px;
+		}
+
+		.icon--close {
+			display: inline-block;
+			height: 22px;
+			opacity: 0;
+			top: 10px;
+			transform: scale(0);
+			visibility: hidden;
+			width: 22px;
+		}
+	}
+
+	&:checked + label .icon--share:not(.icon--close) {
+		opacity: 0;
+		transform: scale(0);
+		visibility: hidden;
+	}
+
+	&:checked + label .icon--close {
+		opacity: 1;
+		transform: scale(1);
+		visibility: visible;
+	}
+
+	&:checked + label + ul li {
+		transition-timing-function: cubic-bezier(0.095, 0.64, 0.36, 1.365);
+
+		&:nth-child(1) {
+			transform: translate(-0.3em, -5em) scale(1);
+			transition-delay: 0s;
+		}
+
+		&:nth-child(2) {
+			transform: translate(2.1em, -4em) scale(1);
+			transition-delay: 0.1s;
+		}
+
+		&:nth-child(3) {
+			transform: translate(4em, -2.1em) scale(1);
+			transition-delay: 0.2s;
+		}
+
+		&:nth-child(4) {
+			transform: translate(5em, 0.3em) scale(1);
+			transition-delay: 0.3s;
+		}
+	}
+}

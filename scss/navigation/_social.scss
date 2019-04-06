@@ -1,0 +1,92 @@
+.social-navigation ul,
+.widget-area .menu-social-menu-container ul {
+	display: inline-block;
+}
+
+.social-navigation ul,
+.social-navigation ul li,
+.widget-area .menu-social-menu-container ul,
+.widget-area .menu-social-menu-container ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-navigation ul li:first-child,
+.widget-area .menu-social-menu-container ul li:first-child {
+	margin-left: 0;
+}
+
+.social-navigation ul li:last-child,
+.widget-area .menu-social-menu-container ul li:last-child {
+	margin-right: 0;
+}
+
+.social-navigation ul li a,
+.widget-area .menu-social-menu-container ul li a {
+	border-radius: 50%;
+	box-shadow: 0 0 0;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	overflow: hidden;
+	position: relative;
+	transform: translatez(0);
+	transition: opacity 300ms cubic-bezier(0.33, 0, 0.2, 1);
+	width: 26px;
+	will-change: opacity;
+}
+
+.social-navigation ul li a > .icon,
+.widget-area .menu-social-menu-container ul li a > .icon {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transform: scale(2);
+	width: 100%;
+}
+
+.social-navigation a:hover,
+.widget-area .menu-social-menu-container a:hover {
+	opacity: 0.25;
+}
+
+@media (min-width: 768px) {
+	.social-navigation:hover a,
+	.widget-area .menu-social-menu-container:hover a {
+		opacity: 0.25;
+	}
+
+	.social-navigation:hover a:hover,
+	.widget-area .menu-social-menu-container:hover a:hover {
+		opacity: 1;
+	}
+}
+
+.social-navigation .icon,
+.widget-area .menu-social-menu-container .icon {
+	fill: $black;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.sidebar .social-navigation {
+	margin-top: 50px;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.sidebar .social-navigation {
+		margin-top: 5vh;
+	}
+}
+
+.sidebar .social-navigation ul li,
+.widget-area .menu-social-menu-container ul li {
+	display: inline-block;
+	margin: 0;
+}

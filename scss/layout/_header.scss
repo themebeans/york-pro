@@ -1,0 +1,56 @@
+.site-header {
+	@include clearfix();
+	padding: 30px 4% 0 4%;
+
+	.admin-bar & {
+		top: 32px;
+
+		@media (max-width: 782px) {
+			top: 46px;
+		}
+	}
+
+	&--left,
+	&--right {
+		float: left;
+		@media (min-width: 700px) {
+			float: left;
+			width: 50%;
+		}
+	}
+
+	&--left {
+		pointer-events: auto;
+		text-align: left;
+		width: 70%;
+	}
+
+	&--right {
+		text-align: right;
+		width: 30%;
+		z-index: 99999;
+
+		@media (min-width: 600px) {
+			position: fixed;
+			right: 4%;
+		}
+
+		.nav-open & {
+			z-index: 0;
+		}
+	}
+
+	.site-title {
+		display: inline-block;
+		font-size: 30px;
+		margin: 0;
+
+		a {
+			transition: 200ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
+		}
+
+		.customize-partial-edit-shortcut {
+			margin-top: 3px;
+		}
+	}
+}

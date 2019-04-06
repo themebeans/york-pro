@@ -1,0 +1,60 @@
+.customize-partial-edit-shortcuts-shown {
+	button.customize-partial-edit-shortcut-button {
+		border-color: $white !important;
+	}
+
+	.site-title .customize-partial-edit-shortcut-button {
+		position: relative;
+		top: -3px;
+	}
+
+	.custom-logo-link {
+		margin-left: -30px; // Pull it to the left, to keep the logo centered when the edit link is shown.
+		align-items: center;
+		justify-content: center;
+
+		.customize-partial-edit-shortcut,
+		.customize-partial-edit-shortcut-button {
+			position: relative;
+			float: none;
+			left: initial;
+		}
+
+		.customize-partial-edit-shortcut-button {
+			left: -10px;
+		}
+
+		.customize-partial-edit-shortcut {
+			height: auto;
+			width: auto;
+		}
+	}
+
+	.widget_nav_menu {
+		.customize-partial-edit-shortcut-button {
+			left: -35px;
+			top: -3px;
+		}
+
+		[class*="customize-partial-edit-shortcut-widget-nav_menu"] {
+			display: none;
+		}
+	}
+
+	.widget_mc4wp_form_widget {
+		.customize-partial-edit-shortcut-button {
+			left: -20px;
+			top: -35px;
+		}
+	}
+
+	.site-info {
+		.customize-partial-edit-shortcut-button {
+			left: -35px;
+		}
+	}
+}
+
+.customize-partial-edit-shortcut button svg {
+	fill: #fff !important;
+}

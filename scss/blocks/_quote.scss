@@ -1,0 +1,55 @@
+.entry-content {
+	blockquote,
+	.wp-block-quote {
+		padding-left: $content__padding;
+		padding-right: $content__padding;
+
+		&:not(.is-style-large) {
+			border-left: $block__quote--border-width solid $black;
+
+			p {
+				font-family: $font__heading;
+				font-size: $font__size-lg;
+				font-weight: $font__weight-heading;
+			}
+		}
+
+		p {
+			line-height: 1.4;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+
+		cite {
+			color: $gray;
+			display: block;
+			font-size: $font__size-xs;
+			margin-top: 10px;
+		}
+
+		&.is-style-large {
+			border-left: none;
+			margin: $content__spacer auto;
+
+			@media screen and (min-width: $content__media-query) {
+				margin-bottom: $content__spacer + 12px;
+				margin-top: $content__spacer + 12px;
+			}
+
+			p:first-of-type {
+				font-size: $font__size-xl;
+				font-style: italic;
+				line-height: 1.35;
+			}
+
+			cite {
+				font-size: $font__size-sm;
+				margin-top: 0.65em;
+				padding-bottom: 5px;
+				text-align: inherit;
+			}
+		}
+	}
+}

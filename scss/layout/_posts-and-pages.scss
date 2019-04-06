@@ -1,0 +1,142 @@
+.entry-media {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.post-thumbnail {
+	display: block;
+
+	&__inner {
+		overflow: hidden;
+		transition: transform 0.4s ease-in-out;
+	}
+
+	&:hover &__inner {
+		transform: scale(0.99);
+
+		/* Applies styles when Reduced Motion is enabled */
+		@media screen and (prefers-reduced-motion: reduce) {
+			transform: scale(1);
+		}
+	}
+
+	&:hover .wp-post-image {
+		transform: scale(1.05);
+
+		/* Applies styles when Reduced Motion is enabled */
+		@media screen and (prefers-reduced-motion: reduce) {
+			transform: scale(1);
+		}
+	}
+
+	.wp-post-image {
+		transition: transform 0.4s ease-in-out;
+	}
+}
+
+.page-links {
+	clear: both;
+	display: block;
+	padding-top: 50px;
+
+	span {
+		@include font-size(15px);
+		background-color: #f0f0f0;
+		border-radius: 3px;
+		display: inline-block;
+		height: 32px;
+		line-height: 32px;
+		text-align: center;
+		transition: 200ms background cubic-bezier(0.3, -0.55, 0.1, 1.1);
+		width: 32px;
+	}
+
+	a {
+		box-shadow: none;
+		color: $black;
+		transition: 200ms color cubic-bezier(0.3, -0.55, 0.1, 1.1);
+	}
+
+	a span {
+		color: $gray;
+
+		&:hover {
+			background: #eee;
+		}
+	}
+}
+
+.taxonomy-description {
+	color: $gray;
+	display: inline-block;
+	font-style: italic;
+	margin: 30px auto 0;
+	max-width: 560px;
+
+	@media only screen and (min-width: 700px) {
+		margin-top: 35px;
+	}
+}
+
+.bypostauthor {
+	text-transform: normal;
+}
+
+.single-attachment .entry-content h1 {
+	margin-bottom: 0;
+}
+
+.single-attachment .entry-content {
+	margin: 20px 0 50px;
+}
+
+.post-password-required input[type="password"] {
+	margin-top: 10px;
+}
+
+.post-password-required input[type="submit"] {
+	display: none;
+}
+
+.post-password-required label {
+	display: none;
+}
+
+p:empty {
+	display: none;
+}
+
+.sticky {
+	color: inherit;
+}
+
+.more-link {
+	display: block !important;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: none !important;
+	margin-top: -10px;
+}
+
+/* Search */
+.search-form {
+	position: relative;
+}
+
+.search .page-content {
+	padding-top: 5px;
+}
+
+.search .page-content input[type="search"].search-field {
+	width: 70%;
+	display: inline-block;
+}
+
+.search .page-content input[type="submit"] {
+	width: 20%;
+	display: inline-block;
+}
+
+.search .page-title {
+	text-align: center;
+}

@@ -1,0 +1,18 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">portfolio</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">_bean_portfolio_role</custom-field>
+    <custom-field action="translate">_bean_portfolio_client</custom-field>
+    <custom-field action="translate">text_subscribed</custom-field>
+    <custom-field action="translate">text_invalid_email</custom-field>
+    <custom-field action="translate">text_required_field_missing</custom-field>
+    <custom-field action="translate">text_already_subscribed</custom-field>
+    <custom-field action="translate">text_error</custom-field>
+    <custom-field action="translate">text_unsubscribed</custom-field>
+    <custom-field action="translate">text_not_subscribed</custom-field>
+    <custom-field action="translate">text_no_lists_selected</custom-field>
+    <custom-field action="translate">text_previously_unsubscribed</custom-field>
+  </custom-fields>
+</wpml-config>

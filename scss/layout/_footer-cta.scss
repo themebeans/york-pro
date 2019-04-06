@@ -1,0 +1,105 @@
+.cta-spacer {
+	height: 30em;
+	pointer-events: none;
+	position: relative;
+	z-index: -1;
+}
+
+.cta {
+	background-color: $black;
+	bottom: 0;
+	display: table;
+	height: 30em;
+	left: 0;
+	overflow: hidden;
+	padding: 10vw 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: -1;
+
+	@media screen and (min-width: 1920px) {
+		padding: 7vw 0;
+	}
+
+	svg {
+		opacity: 0.15;
+	}
+
+	h2 {
+		color: $white !important;
+		display: block;
+		font-size: 30px;
+		line-height: 1.5em;
+		margin: 0;
+
+		i {
+			border-bottom: 3px solid rgba(255, 255, 255, 0.15);
+			padding-bottom: 5px;
+		}
+	}
+
+	a {
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 2;
+
+		&::after {
+			border: 25px solid $white;
+			bottom: 0;
+			content: "";
+			display: block;
+			left: 0;
+			margin: -25px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			transition: all 450ms cubic-bezier(0.68, -0.55, 0.465, 1.55);
+		}
+
+		&:hover::after {
+			margin: -5px;
+		}
+	}
+}
+
+.cta-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cta-wrapper-inner {
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 823px) {
+	.cta h2 {
+		font-size: 4.75vw;
+	}
+
+	.cta h2.lets-chat {
+		font-size: 3.4vw;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.cta h2 {
+		font-size: 90px;
+	}
+
+	.cta .lets-chat {
+		font-size: 70px;
+	}
+}
+
+@media (min-width: 900px) {
+	.cta .lets-chat {
+		margin-top: 15px;
+		position: relative;
+	}
+}
+
+@import "modules/shapes";

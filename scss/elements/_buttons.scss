@@ -1,0 +1,36 @@
+.btn,
+button,
+.button,
+.btn[type="submit"],
+.button[type="submit"],
+input[type="reset"],
+input[type="submit"] {
+	appearance: none;
+	background: $black;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 0 0;
+	color: $white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1;
+	padding: 16px 24px;
+	position: relative;
+	text-decoration: none;
+	transition: opacity 150ms cubic-bezier(0.645, 0.045, 0.355, 1);
+	transform: translate3d(0, 0, 0);
+
+	&:hover {
+		color: $white;
+		opacity: 0.95;
+		outline: none;
+	}
+
+	&:focus {
+		outline: 1px dotted $color--outline-button;
+		outline-offset: -4px;
+	}
+}

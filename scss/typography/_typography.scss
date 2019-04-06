@@ -1,0 +1,26 @@
+body,
+button,
+input,
+select,
+textarea {
+	@include font-size(18px);
+	color: $color__text-main;
+	font-family: $font__body;
+	font-weight: $font__weight-body;
+	line-height: $font__line-height-body;
+
+	@media (min-width: 700px) {
+		font-size: $font__size_base;
+	}
+}
+
+body {
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: none;
+	text-rendering: optimizeLegibility;
+	word-wrap: break-word;
+}
+
+@import "headings";
+
+@import "copy";

@@ -1,0 +1,129 @@
+.entry-content {
+	.wp-block-coblocks-alert {
+		@include blockMobileDisplay();
+		padding-bottom: 0.8em;
+		padding-top: 0.7em;
+
+		&:not(.has-custom-size) &__text {
+			font-size: 18px;
+		}
+
+		&:not(.has-custom-size) &__title {
+			font-size: 19px;
+		}
+
+		&__text,
+		&__title {
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+	}
+
+	.wp-block-coblocks-social:not(.is-style-mask) .wp-block-button__link {
+		color: #fff;
+	}
+
+	.wp-block-coblocks-click-to-tweet {
+		border: none !important;
+		padding: 0 !important;
+
+		&__text {
+			font-family: $font__heading;
+			font-weight: $font__weight-heading;
+			line-height: 1.5;
+
+			&:not([class*="font-size"]) {
+				font-size: $font__size-lg;
+			}
+		}
+
+		&__text::before {
+			height: 28px;
+			top: 14px;
+			width: 28px;
+		}
+
+		&__twitter-btn {
+			border-radius: 4px;
+			font-size: $font__size-sm;
+			height: 44px;
+			line-height: 45px;
+			margin-bottom: 10px !important;
+			margin-top: 1em;
+			padding: 0 1em;
+
+			@media (max-width: 700px) {
+				font-size: $font__size-sm;
+			}
+
+			&::before {
+				margin-right: 7px;
+			}
+		}
+	}
+
+	.wp-block-coblocks-author {
+		@include blockMobileDisplay();
+		border-radius: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+
+		&__heading {
+			color: $gray;
+			font-size: $font__size-xs;
+			margin-bottom: 0;
+		}
+
+		&__biography {
+			font-size: $font__size-sm;
+			margin-bottom: 1em;
+			margin-top: 0.1em;
+		}
+
+		&__name {
+			font-family: $font__heading;
+			font-size: $font__size-md;
+			margin: 0.1em 0 0.6em;
+		}
+
+		.wp-block-button {
+			margin-top: 0;
+		}
+	}
+
+	.wp-block-coblocks-dynamic-separator {
+		@include blockMobileDisplay();
+		max-width: $content__width - ($content__padding * 4);
+
+		@media screen and (max-width: $content__width) {
+			padding-left: 0;
+			padding-right: 0;
+			width: calc(100% - #{$content__padding * 2});
+		}
+	}
+
+	.wp-block-coblocks-pricing-table-item {
+		&__title {
+			font-size: $font__size-sm;
+			margin-bottom: 0;
+		}
+
+		&__currency {
+			font-size: $font__size-sm;
+		}
+
+		&__price-wrapper {
+			align-items: center;
+			margin-bottom: 1.9em;
+		}
+
+		&__amount {
+			font-family: $font__heading;
+		}
+
+		&__features {
+			font-size: $font__size-sm;
+			margin-bottom: 1.7em;
+		}
+	}
+}

@@ -1,0 +1,212 @@
+.lity {
+	background: $color--background-lightbox;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	outline: none;
+	position: fixed;
+	right: 0;
+	top: 0;
+	transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+	white-space: nowrap;
+	z-index: 99999999999;
+
+	&.lity-opened {
+		opacity: 1;
+	}
+
+	&.lity-closed {
+		opacity: 0;
+	}
+
+	.admin-bar & {
+		top: 32px;
+	}
+}
+
+.lity-wrap {
+	bottom: 0;
+	left: 0;
+	outline: none;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	z-index: 99999999999;
+
+	&::before {
+		content: "";
+		display: inline-block;
+		height: 100%;
+		margin-right: -0.25em;
+		vertical-align: middle;
+	}
+
+	.admin-bar & {
+		top: 32px;
+	}
+}
+
+.lity-loader {
+	color: $color--background-lightbox;
+	font-size: 14px;
+	margin-top: -0.8em;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+	width: 100%;
+	z-index: 9991;
+
+	.lity-loading & {
+		opacity: 1;
+	}
+}
+
+.lity-container {
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%;
+	outline: none;
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+	z-index: 9992;
+
+	.lity-iframe & {
+		max-width: 964px;
+		width: 100%;
+	}
+}
+
+.lity-content {
+	transform: scale(1);
+	transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+	width: 100%;
+	z-index: 9993;
+
+	.lity-closed &,
+	.lity-loading & {
+		transform: scale(0.8);
+	}
+
+	&::after {
+		bottom: 0;
+		content: "";
+		display: block;
+		height: auto;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: auto;
+		z-index: -1;
+	}
+}
+
+.lity-close {
+	appearance: none;
+	background: transparent;
+	border: 0;
+	box-shadow: none;
+	cursor: pointer;
+	display: block;
+	height: 50px;
+	outline: none;
+	overflow: visible;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	text-indent: -9999em;
+	top: 0;
+	width: 50px;
+
+	&::after,
+	&::before {
+		background: $color--background-lightbox-button;
+		content: "";
+		display: block;
+		height: 50px;
+		left: 0;
+		position: absolute;
+		top: 25px;
+		width: 1px;
+	}
+
+	&::before {
+		transform: rotate(45deg);
+	}
+
+	&::after {
+		transform: rotate(-45deg);
+	}
+
+	.admin-bar & {
+		top: 32px;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		background: transparent;
+		transform: translate(0, 0);
+	}
+}
+
+.lity-iframe-container {
+	height: 0;
+	overflow: hidden;
+	padding-top: 56.25%;
+	width: 100%;
+
+	iframe {
+		background: $color--background-lightbox;
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.lity-hide {
+	display: none;
+}
+
+.lightbox-play {
+	bottom: 5%;
+	box-shadow: 0 0 0;
+	height: 46px;
+	left: 5%;
+	position: absolute;
+	width: 46px;
+	z-index: 9999;
+
+	svg {
+		fill: $black;
+		height: 40px;
+		left: 5px;
+		position: relative;
+		top: 5px;
+		transition: opacity 300ms cubic-bezier(0.33, 0, 0.2, 1);
+		width: 40px;
+	}
+
+	&:hover svg {
+		opacity: 0.5;
+	}
+}
+
+/* Dark color scheme */
+
+[data-lightbox-scheme="dark"] .lity {
+	background: $color--background-lightbox-dark;
+}
+
+[data-lightbox-scheme="dark"] .lity-close::after,
+[data-lightbox-scheme="dark"] .lity-close::before {
+	background: $color--background-lightbox-button-dark;
+}
