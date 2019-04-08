@@ -1,0 +1,287 @@
+** York Pro Changelog **
+
+05 April 2019, Version 2.2.3
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Tweak: Add proper styling for the new <code> format within the block editor
+	* Tweak: Admin 1.6.1
+
+08 March 2019, Version 2.2.2
+	* New: Add check for front-page content and render above the portfolio content if present
+	* New: Add support for the upcoming CoBlocks rounded and 3D button styles
+	* Fix: Multiple paragraphs within a Quote block are now properly spaced
+	* Fix: Adjust Alert block typography control functionality
+	* Fix: Portfolio Count Customizer value now properly saves
+	* Tweak: Adjust core Button block styling
+
+05 December 2018, Version 2.2.1
+	* New: Supports WordPress 5.0 🔥
+	* Tweak: Adjust customizer color values
+	* Tweak: Add fallback background color for the editor color palette
+	* Tweak: Adjust left/right aligned gallery block styling
+	* Tweak: Adjust button block styling
+	* Tweak: Remove the Gutenberg plugin from the list of suggested plugins
+	* Fix: Add back Fitvids.js support for portfolio post type only
+
+26 November 2018, Version 2.2.0
+	* New: Full support for Gutenberg and WordPress 5.0
+	* New: Add Merlin WP Theme Setup Wizard 🧙‍♂️
+	* New: Add PHP 7.2 Compatibility
+	* New: Add support for CoBlocks, Gutenberg Blocks for Content Marketers - https://coblocks.com
+	* New: Add support for Block Gallery, gallery Gutenberg Blocks - https://wpblockgallery.com
+	* New: Add custom Gutenberg editor color palette
+	* New: Add selected Customizer accent color to the Gutenberg editor color palette
+	* New: Add support for loading Customizer font selections in the editor
+	* New: Inline Customizer styles are now minified for enhanced performance
+	* New: Add custom editor font sizes
+	* New: Enable support for responsive embedded content
+	* Remove: Fitvids.js, as York Pro now supports responsive embeds by default
+
+01 October 2018, Version 2.1.5
+	* New: Add new york_before_site_logo() and york_after_site_logo() hooks for enhanced customization
+	* Tweak: Improve UX of site logo/text within the Customizer
+	* Tweak: Admin v1.4.6
+
+29 June 2018, Version 2.1.4
+	* Fix: Use last proper pagination link when sorting is disabled
+	* Tweak: Add york_portfolio_pagination_args() for improved conditional pagination arguments
+	* Tweak: Minor Customizer UI/X improvements
+	* Tweak: Admin v1.4.3
+
+21 February 2017 - Version 2.1.3
+	New:
+		* Added a new option for re-sizing the logo on mobile devices
+
+	Fixes & Updates:
+		* Tweaked Customizer controls for improved organization
+		* Tweaked the Dashboard Doc module for improved UI/X
+		* Tweaked the Dashboard Doc module to better support alternate WordPress admin color schemes
+		* Updated the Dashboard Doc module to enable you to search for queries in our Help Center
+		* Updated /admin/ to v1.3.3 with improved filtering, CMB2 updates, the new Dashboard Doc module and improved white-labeling options
+
+
+19 January 2017 - Version 2.1.2
+	New:
+		* Added minified Customizer, Visual Editor assets with SCSS/auto-prefixing support
+
+	Fixes & Updates:
+		* Improved debug mode that now works with minified asset delivery throughout the entire theme
+		* Tweaked Customizer santization functions
+		* Tweaked custom Google font loading to improve performance
+		* Tweaked navigation menu to retrieve the proper custom font selected
+
+
+18 December 2017 - Version 2.1.1
+	New:
+		* Admin update to v1.3.0
+
+	Fixes & Updates:
+		* Tweaked transation function in the post byline to make it actually translatable
+
+
+12 December 2017 - Version 2.1.0
+	New:
+		* Added support for Login Designer
+
+	Fixes & Updates:
+		* Customizer santization fix
+		* Updated documentation
+		* Updated languages
+
+
+10 November 2017 - Version 2.0.9
+	New
+		* Introduced a new license Customizer control for managing your theme license
+		* Removed the dashboard license widget
+
+
+30 October 2017 - Version 2.0.8
+	Fixes & Updates:
+		* Improved the site header logo display on scroll to improve click UX on the portfolio template and posts
+		* Improved sidebar entry animation
+		* Updated languages
+
+
+24 October 2017 - Version 2.0.7
+	New:
+		* Added support for core custom logo functionality
+		* Added support for page content on the front page, above the portfolio
+		* Added support for WP Gravatar Logo plugin — https://wordpress.org/plugins/wp-gravatar-logo
+
+	Fixes & Updates:
+		* Updated /admin/ to v1.2.0
+		* Migrated the site_logo Customizer option to the core WordPress custom_logo option
+		* Improved sourcemapping for extended theme development
+		* Updated languages
+
+
+24 August 2017 - Version 2.0.6
+	Fixes & Updates:
+		* Added a page transition conditional check for "tel" links
+		* Resolved portfolio external URL parameter
+
+
+24 August 2017 - Version 2.0.5
+	New:
+		* Added a social icon for Houzz
+		* Added support for adding social icons in a Custom Menu Widget — name your social menu "Social Menu" to use it
+
+	Fixes & Updates:
+		* Updated /admin/ to v1.1.2
+		* Added conditional checks for Envato Hosted accounts
+		* Updated languages
+
+
+18 July 2017 - Version 2.0.4
+	Fixes & Updates:
+		* Improved portfolio navigation
+
+
+17 July 2017 - Version 2.0.3
+	Fixes & Updates:
+		* Updated Admin Framework to v1.1.0
+		* Added a new inline dashboard help guide
+		* Improved Contact Form 7 default styling
+
+
+30 June 2017 - Version 2.0.2
+	Fixes & Updates:
+		* Updated /admin/ to v1.0.2
+		* Laid the groundwork for the upcoming Merlin WP integration
+		* Updated languages
+
+
+23 June 2017 - Version 2.0.1
+    New:
+    	* Page titles now display by default, if you have not added a custom header
+    	* Added an option to display flyout content from the top
+
+    Fixes & Updates:
+    	* Updated the /admin/
+    	* Fixed edge-case sidebar overflow fixes on small viewports
+    	* Applied minor PHPCS updates
+    	* Updated widget styling
+    	* Updated languages
+
+
+16 June 2017 - Version 2.0.0
+    New:
+    	* Added support for standard blog posts. You asked - we delivered. 👏👏
+    	* Added 100% WordPress PHP CodeSniffer validity
+    	* Added new menu sub-menu functionality! 👏👏
+    	* Added SCSS styles with CSSComb support - i.e. super-clean code
+    		- If you're using an older child theme, change "style-min.css" to "style.min.css" in your child functions.php file
+    	* Added a new page and post comments system
+    	* Added support for Simple Custom Post Order
+    	* Added improved support for Contact Form 7
+    	* Added the theme version to the dashboard footer, next to the WordPress version
+    	* Added support for WPML. New wpml-config.xml file.
+    	* Added new york_include_svg_icons() function for improved SVG loading
+        * Added new portfolio loop args filter  - york_portfolio_args() - to give you more control. Ref: [https://gist.github.com/richtabor/4c320afe37e2e9ad8b8c302675faa832]
+        * Removed the contact form in lieu of enhanced form plugin support - as mentioned in v1.2.0
+
+    Fixes & Updates:
+    	* Improved flyout menu animation
+    	* Improved UX animations across the board
+    	* Improved Gulp post-processing tasks
+    	* Improved function prefix consistency 'york_'
+    	* Improved SVG fallback support
+    	* Updated lightbox styles. Nice and shiny.
+    	* Laid the framework to add Huh inline documentation in a future update
+    	* Moved /images/ to /assets/images/
+    	* Moved /js/ to /assets/js/
+    	* Moved /css/ to /assets/css/
+    	* Moved /template-parts/ to /components/
+    		- Please update your child theme accordionly if you've overwritten any files in this directory
+    	* Updated languages
+
+
+06 February 2017 - Version 1.2.1
+    New:
+        * Updated get_parent_theme_path() to get_theme_file_path() for more efficient child theming
+        * Override any file, by including a file in the same directory location from within your child theme
+        * Customize sprite icons simply by including your own images/sprite.svg file within your child theme
+
+    Fixes & Updates:
+        * Child theme fallback fix
+
+
+31 January 2017 - Version 1.2.0
+    New:
+        * Added the theme version to the dashboard footer, next to the WordPress version
+        * Added theme starter content for a better onboarding experience
+        * Added better support for the Bean Team WordPress plugin
+        * Added SnapChat and ChowNow SVG icons
+        * Added 'will-change' CSS properties to improve the responsiveness of each site page
+        * Incorporated the WordPress 4.7 get_theme_file_uri() function for enhanced child theming
+        * Incorporated the WordPress 4.7 get_parent_theme_file_path() function for enhanced child theming
+        * Improved performance by adding resource hints to browsers for pre-fetching, pre-rendering and pre-connecting for Google fonts
+        * Refactored the two sprites into one (sprite.svg) and improved rendering speeds
+        * Removed the Portfolio template in lieu of front-page.php. It's not necessary to have both, and this improves oboarding
+
+    Fixes & Updates:
+        * York Pro now requires at least WordPress version 4.7
+        * Refactored the main javascript function for improved performance
+        * Improved inline Customizer CSS loading
+        * Improved optimization of included image assets
+        * Improved Customizer defaults for a better onboarding experience
+        * Improved social sharing contextual animation
+        * Improved flyout menu animation
+        * Improved SVG fallback support
+        * Updated languages
+
+    Notes:
+        * In the next update we will remove the Contact template. Please download and use your contact form plugin of choice, or ours (Contact Form 7).
+
+
+28 December 2016 - Version 1.1.2
+    New:
+        * Added TGMPA support, for improved onboarding
+
+    Fixes & Updates:
+        * Updated languages
+
+
+20 October 2016 - Version 1.1.1
+    New:
+        * Added a lightbox color scheme option (light or dark) to the Customizer
+        * Added large viewport typography font size & line height Customizer options
+
+    Fixes & Updates:
+        * Updated york_social_navigation() for visible SVG output in the Customizer
+        * Updated york_video_lightbox() for visible SVG output in the Customizer
+        * Updated custom generated CSS sanitization and escaping methods
+        * Updated languages
+
+
+12 October 2016 - Version 1.1.0
+    New:
+        * Added a new Error 404 template - it's awesome!
+
+    Fixes & Updates:
+        * Fixed external project link display error
+        * Fixed escaped translation strings
+        * Improved theme updater class
+        * Updater class now requires admin permissions
+        * Updated Customizer sanitization callbacks
+        * Updated pingback header function
+        * Updated feedback module
+        * Updated languages
+
+
+08 July 2016 - Version 1.0.2
+    Fixes & Updates:
+        * Fixed portfolio template view
+
+
+07 July 2016 - Version 1.0.1
+    New:
+        * Added portfolio archive post type variable
+
+    Fixes & Updates:
+        * Fixed footer navigation has_nav_menu
+        * Updated documentation
+        * Updated languages
+
+
+27 June 2016 - Version 1.0.0
+        * Initial release

@@ -1,0 +1,609 @@
+.components-panel .edit-post-meta-boxes-area.is-side h2.hndle span {
+	color: #23282d;
+	font-size: 13px;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .postbox {
+	box-shadow: none;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side  .postbox>.inside,
+.components-panel .edit-post-meta-boxes-area.is-side #poststuff h2.hndle,
+.components-panel .edit-post-meta-boxes-area.is-side #poststuff h3.hndle {
+	border-bottom: none !important;
+	line-height: 1.2;
+	transition: background .1s ease-in-out;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side #poststuff h2.hndle:hover {
+	background-color: #f8f9f9;
+	cursor: pointer;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table th,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table td {
+	display: block;
+	width: 100%;
+	padding: 0;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table {
+	padding: 3px;
+	padding-top: 0;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table textarea {
+	margin-right: 0;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table thead,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table tbody,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table tr,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table td,
+.components-panel .edit-post-meta-boxes-area.is-side .index-meta-table th {
+	display: block;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side label strong {
+	font-weight: 400;
+	font-size: 13px;
+	color: #555d66;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.components-panel .edit-post-meta-boxes-area.is-side label span {
+	display: none;
+}
+
+
+
+
+
+.customize-partial-edit-shortcut {
+    display: none !important;
+}
+
+#customize-control-portfolio_lightbox-colorscheme {
+    padding-left: 25px;
+    width: calc(100% - 25px);
+    margin-top: -10px;
+}
+
+#customize-control-portfolio_lightbox-colorscheme select {
+    width: 100%;
+}
+
+#customize-control-york_footer_cta_text1 {
+    margin-bottom: 2px;
+}
+
+#customize-control-york_footertext_color,
+#customize-control-york_overlay_color {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#customize-control-york_footertext_color {
+    margin-top: 16px;
+}
+
+#customize-control-york_sitetitle_color  {
+    margin-top: 0;
+}
+
+#customize-control-york_footer_cta_text1 .customize-control-title,
+#customize-control-york_footer_cta_text2 .customize-control-title,
+#customize-control-york_footer_cta_link .customize-control-title  {
+    display: none;
+}
+
+#customize-control-york_footer_cta_text1.customize-control,
+#customize-control-york_footer_cta_text2.customize-control,
+#customize-control-york_footer_cta_link.customize-control,
+#customize-control-york_footer_cta_link_target.customize-control,
+#customize-control-york_footer_cta_shapes.customize-control,
+#customize-control-york_cta_background_color.customize-control,
+#customize-control-york_cta_text_color.customize-control,
+#customize-control-york_cta_shape_color.customize-control {
+    padding-left: 25px;
+    width: calc(100% - 50px);
+}
+
+#customize-control-york_hireme_badge_shake {
+    padding-left: 25px;
+}
+
+#customize-control-york_hireme_badge_shake label,
+#customize-control-york_footer_cta_link_target.customize-control label,
+#customize-control-york_footer_cta_shapes.customize-control label {
+    margin-top: -8px;
+    font-size: 12px;
+}
+
+#customize-control-york_cta_background_color {
+    margin-top: 5px;
+}
+
+#customize-control-york_cta_shape_color,
+#customize-control-york_cta_text_color,
+#customize-control-york_cta_background_color {
+    margin-bottom: 5px;
+}
+
+#customize-control-york_cta_background_color .customize-control-title,
+#customize-control-york_cta_text_color .customize-control-title,
+#customize-control-york_cta_shape_color .customize-control-title,
+#customize-control-portfolio_lightbox-colorscheme .customize-control-title {
+    font-size: 13px;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+
+#customize-control-portfolio_lightbox-colorscheme .customize-control-title {
+    margin-bottom: -5px;
+}
+
+#customize-control-york_footer_cta_text1.customize-control .description,
+#customize-control-york_footer_cta_text2.customize-control .description,
+#customize-control-york_footer_cta_link.customize-control .description {
+    font-style: normal;
+    margin-bottom: 2px;
+}
+
+#customize-control-york_footer_cta_text1.customize-control input,
+#customize-control-york_footer_cta_text2.customize-control input,
+#customize-control-york_footer_cta_link.customize-control input {
+    width: 100%;
+}
+
+
+/**
+ * Font styling.
+ */
+
+
+#customize-control-pagetitle_font_size,
+#customize-control-bigdesktop_font_size,
+#customize-control-mobile_pagetitle_font_size {
+    margin-bottom: 0;
+}
+
+#customize-control-pagetitle_font_family {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.customize-control-range label span {
+    display: inline-block;
+}
+
+.customize-control-range input[type="range"] {
+    float: right;
+}
+
+
+/**
+ * Adds custom styling for the widget media uploaders.
+ */
+
+
+.widget-media-container {
+    width: 100%;
+    margin-top: -9px;
+}
+
+.widget-no-image {
+    border: 1px dashed #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.widget-media-inner img {
+    max-width: 100%;
+    border-radius: 2px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.widget-media-url {
+    display: none;
+}
+
+.widget-media-remove {
+    float: left;
+    width: 48%;
+}
+
+.widget-media-upload {
+    float: right;
+    width: 48%;
+}
+
+
+/**
+ * Adds custom styling for the gallery media uploaders.
+ */
+
+
+.widget-media-container--grid img {
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.widget-media-container--grid ul li {
+    width: 100%;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.widget-media-container--grid ul li:first-child {
+    padding-top: 5px;
+}
+
+.widget-media-container--grid ul li .widget-no-image {
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    width: 28px;
+}
+
+.widget-media-container--grid .image-wrap {
+    width: 20%;
+    float: left;
+}
+
+.widget-media-container--grid .buttons-wrap {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+}
+
+
+/**
+ * Customizer Retina Logo
+ */
+
+
+#customize-control-site_logo .actions {
+	margin-bottom: 0;
+}
+
+#customize-control-retina_logo {
+	margin-bottom: 20px;
+	margin-top: -5px;
+}
+
+
+/* Range control styles */
+
+
+li.customize-control.customize-control-range .ui-slider-handle {
+	position: absolute;
+    z-index: 2;
+    width: 1.4em;
+    height: 1.4em;
+    cursor: default;
+}
+
+li.customize-control.customize-control-range .ttfmake-control-range {
+	float: left;
+	width: 25%;
+}
+
+li.customize-control.customize-control-range .ttfmake-range-slider {
+	float: right;
+	width: 70%;
+	margin-top: 8px;
+}
+
+li.customize-control.customize-control-range .ui-slider-handle {
+	top: -.4em;
+	border-color: #32373C;
+	background: #32373C;
+}
+
+li.customize-control.customize-control-range .ui-slider-horizontal {
+	height: .6em;
+	border: 1px solid #DDD;
+	border-radius: 10px;
+	background: #fff;
+	position: relative;
+	top: 9px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+}
+
+li.customize-control.customize-control-range .ui-slider-handle {
+	border-radius: 100%;
+}
+
+li.customize-control.customize-control-range .ui-slider-handle:hover {
+	cursor: pointer;
+}
+
+
+/* Customizer */
+
+
+.customize-control select {
+	margin-top: 7px;
+	width: 99.4%;
+}
+
+#accordion-section-york_theme_options_footer .customize-control-checkbox {
+	margin-bottom: 0;
+}
+
+#customize-control-pro_typography_content ul,
+#customize-control-pro_colors_content ul,
+#customize-control-pro_portfolio_content ul,
+#customize-control-pro_portfolio_cta_content ul {
+	list-style-type: disc;
+	padding-left: 1.3em;
+	margin-bottom: 1.5em;
+}
+
+#customize-control-pro_typography_content .description,
+#customize-control-pro_colors_content .description,
+#customize-control-pro_portfolio_content .description,
+#customize-control-pro_portfolio_cta_content .description {
+	font-style: normal;
+}
+
+#customize-control-pro_typography_content .button,
+#customize-control-pro_colors_content .button,
+#customize-control-pro_portfolio_content .button,
+#customize-control-pro_portfolio_cta_content .button {
+	width: 100%;
+	text-align: center;
+}
+
+#customize-controls .control-section .accordion-section-title:hover .york-upgrade-link {
+	background-color: #23282d !important;
+}
+
+#accordion-panel-york_pro_typography.control-panel-default .york-upgrade-link {
+    margin-right: 30px !important;
+}
+
+
+#accordion-panel-york_pro_typography.control-panel-default .accordion-sub-container .control-section-default.control-subsection h3.accordion-section-title .york-upgrade-link {
+    margin-right: 10px !important;
+}
+
+
+.customize-section-title h3 .york-upgrade-link {
+	display: none !important;
+}
+
+
+/* Post Type Sorting */
+
+
+.js #team_list .menu-item-handle,
+.js #portfolio_list .menu-item-handle,
+.js #testimonial_list .menu-item-handle {
+	box-shadow: 0 1px 3px rgba(0,0,0,.05);
+	line-height: 25px;
+	height: 25px;
+	padding: 10px;
+}
+
+#team_list .menu-item-bar,
+#portfolio_list .menu-item-bar,
+#testimonial_list .menu-item-bar {
+	margin: 0;
+}
+
+.js #team_list .menu-item-handle img,
+.js #portfolio_list .menu-item-handle img,
+.js #testimonial_list .menu-item-handle img {
+	border-radius: 2px;
+	height: 25px;
+	width: 25px;
+}
+
+.js #team_list .menu-item-title,
+.js #portfolio_list .menu-item-title,
+.js #testimonial_list .menu-item-title {
+	padding-left: 35px;
+}
+
+.menu-item-image {
+	border-radius: 2px;
+	left: 10px;
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	background-color: #E7E7E7;
+}
+
+
+
+/* Customizer */
+.customize-control select {
+	margin-top: 7px;
+	width: 99.4%;
+}
+
+
+
+/* Meta */
+.media-frame .attachments-browser .media-toolbar {
+    display: block!important;
+}
+
+.index-meta-table {
+    margin: 0;
+}
+
+.index-meta-table tr {
+    border-top: 1px solid #EEE;
+}
+
+.index-meta-table tr:first-child {
+    border-top: none;
+}
+
+.index-meta-table th {
+    padding: 20px 15px;
+    padding-right: 5%;
+    width: 35%;
+}
+
+.index-meta-table a {
+    outline: none!important;
+}
+
+.index-meta-table label span {
+    display: block;
+    color: #999;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 3px 0 0px 0;
+}
+
+.index-meta-table input,
+.index-meta-table textarea {
+    width: 100%;
+    margin-right: 5px;
+    float: left;
+}
+
+.index-meta-table select {
+    min-width: 150px;
+}
+
+.index-meta-table input.file {
+    width: 80%;
+}
+
+.index-meta-table input.button {
+    margin-right: 0;
+    outline: none!important;
+    width: auto;
+}
+
+.index-meta-table #york_images_upload {
+    margin-top: 14px;
+}
+
+.index-meta-table input.radio {
+    float: none;
+    margin-right: 3px;
+    margin-top: 0px;
+    width: auto;
+}
+
+.index-meta-table .radio-label {
+    margin-right: 30px;
+}
+
+.index-meta-table input[type='checkbox'] {
+    margin-top: 1px;
+    margin-right: 10px;
+    width: 10px;
+}
+
+.index-meta-table td span,
+.index-meta-table .radio-label {
+    color: #999;
+    font-size: 13px;
+
+}
+
+/* Colorpicker styles */
+.index-box-color {
+    position: relative;
+}
+
+td.index-box-color {
+    padding: 36px 10px;
+}
+
+.index-box-color input {
+    margin-right: 10px;
+}
+
+.index-box-color .wp-color-picker {
+    width: 65px!important;
+}
+
+.index-box-color .button.button-small {
+    height: 23px!important;
+    margin-top: 1px;
+}
+
+.index-box-color .wp-picker-clear {
+    margin-left: 15px!important;
+}
+.index-box-color .wp-picker-clear {
+    margin-left: 15px!important;
+}
+
+.index-box-color .wp-color-result {
+    margin: 0 6px 3px 0!important;
+}
+
+.index-box-color .wp-color-result,
+.index-box-color .wp-color-result.wp-picker-open {
+    top: 1px!important;
+}
+
+
+/* Media meta */
+.post-type-portfolio .media-button-reverse {
+    display: none;
+}
+
+.index-meta-thumbnails {
+    clear: left;
+    margin-top: 50px;
+}
+
+.index-meta-thumbnails li {
+    float: left;
+    margin-right: 5px;
+}
+
+.index-meta-thumbnails li img {
+    height: 40px;
+}
+
+.index-meta-thumbnails img { vertical-align: bottom; }
+
+
+/* Portfolio side format selector */
+#side-sortables #portfolio-type.postbox .index-meta-table th {
+    padding: 0px;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+#side-sortables #portfolio-type.postbox .index-meta-table strong {
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+#side-sortables #portfolio-type.postbox .index-meta-table td span {
+    display: none;
+}
+
+#side-sortables #portfolio-type.postbox .index-meta-table input[type='checkbox'] {
+    margin: 0;
+}

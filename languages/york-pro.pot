@@ -1,0 +1,846 @@
+# Copyright (C) 2019 York Pro
+# This file is distributed under the same license as the York Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: York Pro\n"
+"Report-Msgid-Bugs-To: https://themebeans.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Rich Tabor of ThemeBeans\n"
+"Language-Team: ThemeBeans\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: archive.php:48, index.php:44
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:49, index.php:45
+msgid "Next page"
+msgstr ""
+
+#: archive.php:50, index.php:46
+msgid "Page"
+msgstr ""
+
+#: comments.php:36
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:41
+msgctxt "number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:70, components/content-team.php:34, components/portfolio/single.php:63
+msgid "Previous"
+msgstr ""
+
+#: comments.php:71, components/content-team.php:33, components/portfolio/single.php:62, components/portfolio/single.php:85
+msgid "Next"
+msgstr ""
+
+#: comments.php:83
+msgid "Comments are closed."
+msgstr ""
+
+#: components/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: components/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: components/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: components/content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: components/content-team.php:33, components/portfolio/single.php:62
+msgid "Next post:"
+msgstr ""
+
+#: components/content-team.php:34, components/portfolio/single.php:63
+msgid "Previous post:"
+msgstr ""
+
+#: components/page/content-page.php:31, header.php:96
+msgid "Pages:"
+msgstr ""
+
+#: components/portfolio/photoswipe.php:29
+msgid "Close (esc)"
+msgstr ""
+
+#: components/portfolio/photoswipe.php:44
+msgid "Next (arrow right)"
+msgstr ""
+
+#: components/portfolio/photoswipe.php:45
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: components/portfolio/portfolio-meta.php:42, inc/meta/meta-portfolio.php:113
+msgid "Role:"
+msgstr ""
+
+#: components/portfolio/portfolio-meta.php:48, inc/meta/meta-portfolio.php:120
+msgid "Client:"
+msgstr ""
+
+#: components/portfolio/portfolio-meta.php:61, inc/meta/meta-portfolio.php:127
+msgid "URL:"
+msgstr ""
+
+#: components/portfolio/portfolio-meta.php:67, inc/meta/meta-portfolio.php:85
+msgid "Views:"
+msgstr ""
+
+#: footer.php:30
+msgid "Y"
+msgstr ""
+
+#: footer.php:36
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: footer.php:43, functions.php:92
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:91, sidebar.php:27
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:93, functions.php:320, inc/template-tags.php:114
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:155
+msgid "Black"
+msgstr ""
+
+#: functions.php:160
+msgid "Gray"
+msgstr ""
+
+#: functions.php:165
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:170
+msgid "White"
+msgstr ""
+
+#: functions.php:175
+msgid "Titan White"
+msgstr ""
+
+#: functions.php:180
+msgid "Tropical Blue"
+msgstr ""
+
+#: functions.php:185
+msgid "Peppermint"
+msgstr ""
+
+#: functions.php:190
+msgid "Iceberg"
+msgstr ""
+
+#: functions.php:195
+msgid "Bridesmaid"
+msgstr ""
+
+#: functions.php:200
+msgid "Pipi"
+msgstr ""
+
+#: functions.php:205
+msgid "Accent"
+msgstr ""
+
+#: functions.php:220, inc/meta/meta-portfolio.php:64, inc/meta/meta-team.php:32
+msgid "Small"
+msgstr ""
+
+#: functions.php:221
+msgid "S"
+msgstr ""
+
+#: functions.php:226, inc/meta/meta-portfolio.php:65, inc/meta/meta-team.php:33
+msgid "Medium"
+msgstr ""
+
+#: functions.php:227
+msgid "M"
+msgstr ""
+
+#: functions.php:232, inc/meta/meta-portfolio.php:66, inc/meta/meta-team.php:34
+msgid "Large"
+msgstr ""
+
+#: functions.php:233
+msgid "L"
+msgstr ""
+
+#: functions.php:238
+msgid "Huge"
+msgstr ""
+
+#: functions.php:239
+msgid "XL"
+msgstr ""
+
+#: functions.php:273
+msgctxt "Theme starter content"
+msgid "Logo"
+msgstr ""
+
+#: functions.php:280
+msgctxt "Theme starter content"
+msgid "York Pro, A beautiful portfolio WordPress theme by ThemeBeans"
+msgstr ""
+
+#: functions.php:292
+msgctxt "Theme starter content"
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:295
+msgctxt "Theme starter content"
+msgid "About Me"
+msgstr ""
+
+#: functions.php:303
+msgid "Primary"
+msgstr ""
+
+#: functions.php:311, functions.php:375, inc/customizer/customizer.php:454
+msgid "Footer"
+msgstr ""
+
+#: functions.php:363, inc/customizer/customizer.php:246
+msgid "Flyout"
+msgstr ""
+
+#: functions.php:365
+msgid "Appears on the theme flyout sidebar."
+msgstr ""
+
+#: functions.php:377
+msgid "Appears at the top of the site footer."
+msgstr ""
+
+#: functions.php:448
+msgid "Write a comment . . ."
+msgstr ""
+
+#: functions.php:449
+msgid "Name"
+msgstr ""
+
+#: functions.php:450
+msgid "email@example.com"
+msgstr ""
+
+#: functions.php:484
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:491
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:639
+msgid "Highlight"
+msgstr ""
+
+#: functions.php:645
+msgid "Button"
+msgstr ""
+
+#: functions.php:689
+msgid "Password:"
+msgstr ""
+
+#: functions.php:689
+msgid "Enter password & press enter..."
+msgstr ""
+
+#: functions.php:689
+msgid "Submit"
+msgstr ""
+
+#: functions.php:831
+msgid "<cite class=\"fn\">%s</cite> "
+msgstr ""
+
+#: functions.php:835
+msgid " %1$s at %2$s"
+msgstr ""
+
+#: functions.php:835, inc/widgets/widget-clients.php:144
+msgid "Edit"
+msgstr ""
+
+#: functions.php:851
+msgid "Awaiting Moderation"
+msgstr ""
+
+#: inc/customizer/customizer.php:42
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:43
+msgid "Customize various options throughout the theme with the settings within this panel."
+msgstr ""
+
+#: inc/customizer/customizer.php:50
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/customizer.php:71
+msgid "Max Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:97
+msgid "Mobile Max Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:132
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:149
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:166
+msgid "Secondary Text Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:183
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:200
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:217, inc/customizer/customizer.php:693
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/customizer.php:234
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:235
+msgid "Add a color to use throughout the theme and within the block editor color palette."
+msgstr ""
+
+#: inc/customizer/customizer.php:261
+msgid "Flyout Layout"
+msgstr ""
+
+#: inc/customizer/customizer.php:264
+msgid "Standard"
+msgstr ""
+
+#: inc/customizer/customizer.php:265
+msgid "Vertically Centered"
+msgstr ""
+
+#: inc/customizer/customizer.php:281
+msgid "Navigation Social Icons"
+msgstr ""
+
+#: inc/customizer/customizer.php:282
+msgid "Display the social icons below the site navigation in the sidebar flyout."
+msgstr ""
+
+#: inc/customizer/customizer.php:292
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer/customizer.php:306
+msgid "Portfolio Count"
+msgstr ""
+
+#: inc/customizer/customizer.php:307
+msgid "Set the number of posts to display on the portfolio template. Use \"-1\" to load them all."
+msgstr ""
+
+#: inc/customizer/customizer.php:322
+msgid "PhotoSwipe Lightbox"
+msgstr ""
+
+#: inc/customizer/customizer.php:323
+msgid "Add a JavaScript image gallery to single views for mobile and desktop viewports, with touch gestures, zooming and optimized asset delivery."
+msgstr ""
+
+#: inc/customizer/customizer.php:339
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer/customizer.php:342
+msgid "Light"
+msgstr ""
+
+#: inc/customizer/customizer.php:343
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer/customizer.php:358
+msgid "Portfolio Lazy Loading"
+msgstr ""
+
+#: inc/customizer/customizer.php:359
+msgid "Boosts performance by delaying the loading of images outside of the visible viewport."
+msgstr ""
+
+#: inc/customizer/customizer.php:375
+msgid "Portfolio Sharing"
+msgstr ""
+
+#: inc/customizer/customizer.php:376
+msgid "Add a social flyout menu on the singular portfolio views."
+msgstr ""
+
+#: inc/customizer/customizer.php:392
+msgid "Portfolio Navigation"
+msgstr ""
+
+#: inc/customizer/customizer.php:393
+msgid "Enable the \"Next\" project post-to-post navigation element on single portfolio pages."
+msgstr ""
+
+#: inc/customizer/customizer.php:409
+msgid "Overlay"
+msgstr ""
+
+#: inc/customizer/customizer.php:426
+msgid "Overlay Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:443
+msgid "Social Share Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:469
+msgid "Powered by York Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:485
+msgid "Footer Call to Action"
+msgstr ""
+
+#: inc/customizer/customizer.php:486
+msgid "Enable the footer call to action to display on all non-masonry pages. Add your text, link and select your settings from the options below."
+msgstr ""
+
+#: inc/customizer/customizer.php:502, inc/customizer/customizer.php:606
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:503
+msgid "Text:"
+msgstr ""
+
+#: inc/customizer/customizer.php:536
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/customizer.php:537
+msgid "Link:"
+msgstr ""
+
+#: inc/customizer/customizer.php:554
+msgid "Open link in a new window"
+msgstr ""
+
+#: inc/customizer/customizer.php:571
+msgid "Add shapes background"
+msgstr ""
+
+#: inc/customizer/customizer.php:588
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/customizer.php:624
+msgid "Shapes"
+msgstr ""
+
+#: inc/customizer/customizer.php:642
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:659
+msgid "Footer Link"
+msgstr ""
+
+#: inc/customizer/customizer.php:676
+msgid "Footer Link Hover"
+msgstr ""
+
+#: inc/customizer/customizer.php:712
+msgid "Heading Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:713
+msgid "Customize the default font family of the theme headings."
+msgstr ""
+
+#: inc/customizer/customizer.php:729
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:730
+msgid "Customize the default font family of the theme default body text."
+msgstr ""
+
+#: inc/customizer/customizer.php:749
+msgid "Font Size"
+msgstr ""
+
+#: inc/customizer/customizer.php:774
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/customizer/customizer.php:799
+msgid "Word Spacing"
+msgstr ""
+
+#: inc/customizer/defaults.php:58
+msgid "Have a cool project?"
+msgstr ""
+
+#: inc/customizer/defaults.php:59
+msgid "Then lets chat!"
+msgstr ""
+
+#: inc/icons.php:32
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icons.php:37
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/meta/meta-page.php:22
+msgid "Page Settings"
+msgstr ""
+
+#: inc/meta/meta-page.php:28
+msgid "Entry Header:"
+msgstr ""
+
+#: inc/meta/meta-page.php:29
+msgid "Add a header tagline to this page."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:22
+msgid "Portfolio Format"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:29
+msgid "Gallery"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:36
+msgid "Video"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:51
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:58, inc/meta/meta-team.php:26
+msgid "Grid Thumbnail Size:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:59, inc/meta/meta-team.php:27
+msgid "Select the size of the project thumbnail."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:67
+msgid "Extra Large"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:71
+msgid "Gallery Images:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:72
+msgid "Upload, reorder and caption the post gallery."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:75
+msgid "Browse & Upload"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:78
+msgid "Date:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:81
+msgid "Display the date."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:88
+msgid "Display the view count."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:92
+msgid "Categories:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:95
+msgid "Display the portfolio categories."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:99
+msgid "Tags:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:102
+msgid "Display the portfolio tags."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:106
+msgid "Permalink:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:109
+msgid "Display the post permalink."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:114
+msgid "Display the role."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:121
+msgid "Display the client meta."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:128
+msgid "Display a URL to link to."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:134
+msgid "External URL:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:135
+msgid "Link this portfolio post to an external URL. For example, link this post to your Behance portfolio post."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:149
+msgid "Video Settings"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:155
+msgid "Lightbox Embed URL:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:156
+msgid "Insert your embeded URL to play in the blogroll grid pages."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:162
+msgid "Embed 1:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:163, inc/meta/meta-portfolio.php:170, inc/meta/meta-portfolio.php:177, inc/meta/meta-portfolio.php:184
+msgid "Insert your embeded code here."
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:169
+msgid "Embed 2:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:176
+msgid "Embed 3:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:183
+msgid "Embed 4:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:190
+msgid "Video Shortcodes:"
+msgstr ""
+
+#: inc/meta/meta-portfolio.php:192
+msgid "Insert any <a target=\"blank\" href=\"https://codex.wordpress.org/Video_Shortcode\">video shortcodes</a> here."
+msgstr ""
+
+#: inc/meta/meta-team.php:19
+msgid "Team Member Settings"
+msgstr ""
+
+#: inc/meta/meta-team.php:35
+msgid "Xtra-Large"
+msgstr ""
+
+#: inc/meta/meta.php:121
+msgid "Create Gallery"
+msgstr ""
+
+#: inc/meta/meta.php:128, inc/meta/meta.php:134, inc/meta/meta.php:241, inc/meta/meta.php:243
+msgid "Edit Gallery"
+msgstr ""
+
+#: inc/meta/meta.php:133
+msgid "Cancel"
+msgstr ""
+
+#: inc/meta/meta.php:168
+msgid "Save Gallery"
+msgstr ""
+
+#: inc/meta/meta.php:178
+msgid "Saving..."
+msgstr ""
+
+#: inc/meta/meta.php:323
+msgid "Yes, please do"
+msgstr ""
+
+#: inc/plugins.php:23
+msgid "Portfolio Post Type"
+msgstr ""
+
+#: inc/plugins.php:28
+msgid "Simple Post Ordering"
+msgstr ""
+
+#: inc/plugins.php:33
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgctxt "%s = human-readable time difference"
+msgid "<span class=\"days-ago\">%s ago </span>"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:455
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: inc/widgets/widget-clients.php:38
+msgid "Clients"
+msgstr ""
+
+#: inc/widgets/widget-clients.php:41
+msgid "Displays client social proof."
+msgstr ""
+
+#: inc/widgets/widget-clients.php:143
+msgid "Add"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:29
+msgid "Flickr Photos"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:31
+msgid "Add a Flickr feed widget."
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:148
+msgid "Title / Intro:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:157
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:162
+msgid "Type:"
+msgstr ""
+
+#: inc/widgets/widget-flickr.php:180
+msgid "Display:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:38
+msgid "Portfolio Menu"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:41
+msgid "A custom loop of portfolio posts."
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:186, inc/widgets/widget-profile.php:140
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:195
+msgid "Number of Posts: (-1 for Infinite)"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:200
+msgid "Portfolio Loop:"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:207
+msgid "Most Recent"
+msgstr ""
+
+#: inc/widgets/widget-portfolio-menu.php:213
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:38
+msgid "Profile"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:41
+msgid "Displays a user profile."
+msgstr ""
+
+#: inc/widgets/widget-profile.php:145
+msgid "Description:"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:157
+msgid "No avatar selected"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:162
+msgid "Change Avatar"
+msgstr ""
+
+#: inc/widgets/widget-profile.php:162
+msgid "Select Image"
+msgstr ""
